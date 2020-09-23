@@ -1,0 +1,5 @@
+namespace: prometheus-operator
+bases:
+  - ../../../cluster/prometheus-operator
+patchesStrategicMerge:
+  - flux-patch.yaml

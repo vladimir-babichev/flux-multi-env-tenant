@@ -1,0 +1,5 @@
+namespace: team1
+bases:
+  - ../../../cluster/team1
+patchesStrategicMerge:
+  - flux-patch.yaml

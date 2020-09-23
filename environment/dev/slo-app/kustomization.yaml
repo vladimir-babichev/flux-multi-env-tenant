@@ -1,0 +1,5 @@
+namespace: slo-app
+bases:
+  - ../../../cluster/slo-app
+patchesStrategicMerge:
+  - flux-patch.yaml

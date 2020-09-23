@@ -1,0 +1,5 @@
+namespace: metrics-app
+bases:
+  - ../../../cluster/metrics-app
+patchesStrategicMerge:
+  - flux-patch.yaml

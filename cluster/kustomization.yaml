@@ -1,0 +1,5 @@
+bases:
+  - ./common/
+  - ./metrics-app/
+  - ./prometheus-operator/
+  - ./slo-app/
